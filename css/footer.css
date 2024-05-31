@@ -1,0 +1,77 @@
+.footer {
+    padding-bottom: 50px;
+}
+
+.footer__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.footer__contact-block {
+    margin-bottom: 40px;
+}
+
+.footer__contacts {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 117%;
+    font-style: normal;
+    white-space: pre-line;
+    padding-left: 60px;
+    margin: 0 0 20px;
+}
+
+.footer__contacts_icon_address {
+    background-image: url(../image/icons/location.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 34px;
+}
+
+.footer__contacts_icon_phone {
+    background-image: url(../image/icons/phone-call.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 34px;
+}
+
+.footer__contacts_icon_email {
+    background-image: url(../image/icons/envelope.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 34px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.footer__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 26px;
+}
+
+.footer__link-icon {
+    display: block;
+}
+
+.footer__img-link { 
+    display: block;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}

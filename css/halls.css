@@ -1,0 +1,58 @@
+.halls {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.halls__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.halls__list {
+    padding-left: 0;
+    margin: -10px;
+    font-size: 0;
+}
+
+.halls__items_theme_vibes {
+    background-image: url('../image/wibes.jpg');
+}
+
+.halls__items_theme_star {
+    background-image: url('../image/starwars.jpg');
+}
+
+.halls__items_theme_west {
+    background-image: url('../image/west.jpg');
+}
+.halls__items_theme_neon {
+    background-image: url('../image/neon.jpg');
+}
+
+.halls__items {
+    list-style-type: none;
+    padding:  135px 0;
+    width: calc(50% - 20px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.halls__text {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 114%;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}

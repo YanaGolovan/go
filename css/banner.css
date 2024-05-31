@@ -1,0 +1,23 @@
+.banner__bg {
+    background-image: url('../image/men.png');
+    background-position: bottom right 30px;
+    background-repeat: no-repeat;
+    min-height: 823px;
+    background-size: 675px;
+}
+.banner__title {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner__subtitle {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 179%;
+    padding-left: 100px;
+    margin: 0;
+}
