@@ -1,10 +1,17 @@
 .banner__bg {
+    display: flex;
     background-image: url('../image/men.png');
     background-position: bottom right 30px;
     background-repeat: no-repeat;
     min-height: 823px;
     background-size: 675px;
+    flex-direction: column;
 }
+
+.banner__title-wrapper {
+    margin-bottom: 65px;
+}
+
 .banner__title {
     font-size: 150px;
     font-weight: 900;
@@ -21,3 +28,52 @@
     padding-left: 100px;
     margin: 0;
 }
+
+.banner__desc {
+    display: flex;
+    gap: 43px;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+.banner__desc-wrapper {
+    text-align: center;
+}
+
+.banner__text-black {
+    font-weight: 900;
+    font-size: 100px;
+    color: #cd06ff;
+    margin: 0;
+}
+
+.banner__text-black_font_size {
+    font-size: 75px;
+    font-variant: all-small-caps;
+}
+
+.banner__text {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    white-space: pre-line;
+}
+
+.banner__button {
+    border-radius: 10px;
+    width: 374px;
+    height: 80px;
+    background-color: #CD06FF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+}
+
+.banner__arrow {
+    align-self: center;
+}
+

@@ -1,4 +1,5 @@
 @import "css/normalize.css";
+@import "css/global.css";
 @import "css/style.css";
 @import "css/banner.css";
 @import "css/halls.css";
@@ -7,3 +8,5 @@
 @import "css/reviews.css";
 @import "css/faq.css";
 @import "css/footer.css";
+@import "css/header.css";
+@import "css/gadgets.css";
