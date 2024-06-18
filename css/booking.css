@@ -12,23 +12,26 @@
     margin: 0 0 60px;
 }
 
+.booking__form-wrapper_wdt_980 {
+    max-width: 980px;
+    margin: 0 auto 60px;
+}
+
 .booking__form-wrapper:last-child {
     margin-bottom: 0;
 }
 
 .booking__wrapper-intertaiment {
     display: flex;
-    justify-content: center;
-    gap: 180px;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .booking__wrapper-date {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-end;
-    gap: 50px;
     flex-wrap: wrap;
+    gap: 50px;
     margin-bottom: 40px;
 }
 
@@ -77,17 +80,16 @@
     background-color: #fff;
     text-align: center;
     border-radius: 8px;
-    min-width: 250px;
-    min-height: 55px;
     padding: 7px 0 7px 0;
+    flex-basis: 250px;
 }
 
 
 .booking__halls-wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
     flex-wrap: wrap;
+    gap: 60px;
 }
 
 .booking__variants-text {
@@ -118,13 +120,11 @@
 }
 
 .booking__input {
-    width: 280px;
+    border: none;
     margin-bottom: 14px;
     padding: 12px 20px;
-}
-
-.booking__input_width_300 {
-    width: 300px;
+    font-size: 18px;
+    line-height: 156%;
 }
 
 .booking__input:last-child {
@@ -134,6 +134,7 @@
 .booking__form-wrapper-date {
     border: none;
     display: flex;
+    flex-basis: 300px;
     flex-direction: column;
     gap: 36px;
     padding: 0;
@@ -142,6 +143,7 @@
 .booking__form-wrapper-name{
     border: none;
     display: flex;
+    flex-basis: 280px;
     flex-direction: column;
     padding: 0;
 }
@@ -149,6 +151,7 @@
 .booking__form-wrapper-contact{
     border: none;
     display: flex;
+    flex-basis: 300px;
     flex-direction: column;
     padding: 0;
 }
@@ -162,23 +165,25 @@
     max-width: 134px;
     width: 100%;
     padding: 12px 20px;
+    border: none;
+    line-height: 156%;
 }
 
 .booking__button-wrapper {
     display: flex;
     justify-content: flex-end;
-    margin-right: 100px;
 }
 
 .booking__button {
     border-radius: 10px;
-    width: 300px;
-    height: 60px;
     background-color: #fff;
     font-weight: 700;
     font-size: 22px;
     line-height: 127%;
     text-transform: uppercase;
     color: #6c0287;
+    padding: 16px 50px;
     border: none;
 }
+
+
