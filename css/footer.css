@@ -1,5 +1,7 @@
 .footer {
+    padding-top: 55px;
     padding-bottom: 50px;
+    background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
 }
 
 .footer__title {
@@ -74,4 +76,21 @@
 
 .icon:last-child {
     margin-right: 0;
+}
+
+.footer__map {
+    background-image: url('../img/map.jpg');
+    max-width: 680px;
+    width: 100%;
+    height: auto;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contact-wrapper {
+    display: flex;
+    flex-direction: column;
 }
