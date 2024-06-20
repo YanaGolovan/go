@@ -11,18 +11,18 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <nav class="navigation">
+        <div class="container header__container">
             <img src="img/logo.svg" alt="логотип">
+            <nav class="navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a class="navigation__link" href="#залы">Залы</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#о_нас">О нас</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Бронь</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Отзывы</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#контакты">Контакты</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#halls">Залы</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#about">О нас</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#book">Бронь</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#reviews">Отзывы</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#contacts">Контакты</a></li>
                 </ul>
-            <button class="navigation__button" type="button">заказать звонок</button>
             </nav>
+            <a href="#" class="navigation__button" type="button">заказать звонок</a>
         </div>
     </header>
     <main class="main">             
@@ -39,35 +39,37 @@
                             зала</p>
                     </div>
                     <div class="banner__desc-wrapper">
-                        <p class="banner__text-black banner__text-black_font_size">new</p>
+                        <p class="banner__text-new">new</p>
                         <p class="banner__text">Новейшая
                             аппаратура</p>
                     </div>
                 </div>
-                <button class="banner__button" type="button">забронировать</button>
+                <a href="#book" class="banner__button" type="button">забронировать</a>
                 <div class="banner__arrow">
-                    <svg width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
-                        <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
-                        <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
-                    </svg>
+                    <a href="#gadgets">
+                        <svg width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
+                            <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
+                            <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
+                        </svg>
+                    </a>
                 </div>                                                          
             </div>
         </section>
 
-        <section class="gadgets content">
+        <section class="gadgets content" id="gadgets">
             <div class="container">
                 <h2 class="gadgets__title">У нас есть все для классного
                     отдыха с друзьями!</h2>
                 <ul class="gadgets__list">
-                <li class="gadgets__items"><figure class="gadgets__card"><img src="img/vr.jpg" alt="VR очки"><figcaption class="gadgets__text">VR очки</figcaption></figure></li>
-                <li class="gadgets__items"><figure class="gadgets__card"><img src="img/audio.png" alt="Аудио-система 5.1 с отличным звуком"><figcaption class="gadgets__text">Аудио-система 5.1
+                <li class="gadgets__item"><figure class="gadgets__card"><img class="gadget__img" src="img/vr.jpg" alt="VR очки"><figcaption class="gadgets__text">VR очки</figcaption></figure></li>
+                <li class="gadgets__item"><figure class="gadgets__card"><img class="gadget__img" src="img/audio.png" alt="Аудио-система 5.1 с отличным звуком"><figcaption class="gadgets__text">Аудио-система 5.1
                     с отличным звуком</figcaption></figure></li>
-                <li class="gadgets__items"><figure class="gadgets__card"><img src="img/micro.jpg" alt="Караоке"><figcaption class="gadgets__text">Караоке (4 микрофона)</figcaption></figure></li>
-                <li class="gadgets__items"><figure class="gadgets__card"><img src="img/game.jpg" alt="Настольные игры"><figcaption class="gadgets__text">Настольныe игры</figcaption></figure></li>
-                <li class="gadgets__items"><figure class="gadgets__card"><img src="img/netflix.jpg" alt="Кино сервисы Netflix, IVI, Megogo, КиноПоиск, Okko"><figcaption class="gadgets__text">Кино сервисы Netflix, IVI,
+                <li class="gadgets__item"><figure class="gadgets__card"><img class="gadget__img" src="img/micro.jpg" alt="Караоке"><figcaption class="gadgets__text">Караоке (4 микрофона)</figcaption></figure></li>
+                <li class="gadgets__item"><figure class="gadgets__card"><img class="gadget__img" src="img/game.jpg" alt="Настольные игры"><figcaption class="gadgets__text">Настольныe игры</figcaption></figure></li>
+                <li class="gadgets__item"><figure class="gadgets__card"><img class="gadget__img" src="img/netflix.jpg" alt="Кино сервисы Netflix, IVI, Megogo, КиноПоиск, Okko"><figcaption class="gadgets__text">Кино сервисы Netflix, IVI,
                     Megogo, КиноПоиск, Okko</figcaption></figure></li>
-                <li class="gadgets__items"><figure class="gadgets__card"><img src="img/sony.jpg" alt="Playstation 5"><figcaption class="gadgets__text">Playstation 5</figcaption></figure></li>
+                <li class="gadgets__item"><figure class="gadgets__card"><img class="gadget__img" src="img/sony.jpg" alt="Playstation 5"><figcaption class="gadgets__text">Playstation 5</figcaption></figure></li>
                 </ul>
             </div>
         </section>

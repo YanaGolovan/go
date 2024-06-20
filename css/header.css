@@ -1,7 +1,7 @@
-.navigation {
+.header__container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 /*.navigation__menu {
@@ -14,7 +14,6 @@
     list-style-type: none;
     flex-direction: row;
     gap: 40px;
-    align-items: center;
     padding-left: 0;
     margin: 0;
 }
@@ -44,4 +43,7 @@
     border: 3px #CD06FF solid;
     border-radius: 10px;
     background-color: #1b1a1b;
+    padding: 12px 32px;
+    text-align: center;
+    
 }

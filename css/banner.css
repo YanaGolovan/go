@@ -46,9 +46,12 @@
     margin: 0;
 }
 
-.banner__text-black_font_size {
+.banner__text-new {
+    font-weight: 900;
+    color: #cd06ff;
     font-size: 75px;
     font-variant: all-small-caps;
+    margin: 0;
 }
 
 .banner__text {
@@ -62,14 +65,14 @@
 
 .banner__button {
     border-radius: 10px;
-    width: 374px;
-    height: 80px;
-    background-color: #CD06FF;
+    background-color: #6C0287;
     font-weight: 700;
     font-size: 26px;
     line-height: 115%;
     text-transform: uppercase;
     color: #fff;
+    max-width: 374px;
+    padding: 25px 69px;
     border: none;
 }
 

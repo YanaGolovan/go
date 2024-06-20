@@ -16,14 +16,22 @@
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    gap: 20px;
-    margin: 0;
-    padding-left: 0;
-    
+    margin: -10px;
+    padding-left: 0; 
+}
+
+.gadgets__item {
+    width: calc(100% / 3 - 80px);
+    max-width: 380px;
+    flex: 1;
+    margin: 10px;
 }
 
 .gadgets__card {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 228px;
     margin: 0;
 }
 
@@ -32,8 +40,12 @@
     font-size: 20px;
     line-height: 140%;
     color: #fff;
-    white-space: pre-line;
-    position: absolute;
-    top: 166px;
-    left: 40px;
+    white-space: pre-line; 
+    padding: 6px 40px;
+}
+
+.gadget__img {
+    display: block;
+    max-width: 380px;
+    margin-bottom: -70px;
 }
