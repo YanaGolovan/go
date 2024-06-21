@@ -41,7 +41,9 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 140%;
-    margin: 0 0 20px;
+    margin: 0 0 39px;
+    white-space: pre-line;
+    vertical-align: top;
 }
 
 .about-us__text:last-child{
@@ -86,6 +88,7 @@
 }
 
 .blockquote__block-boss {
+    display: flex;
     margin: 0;
     padding-right: 34px;
     float: right;
@@ -111,7 +114,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 140%;
-    margin: 0 0 20px;
+    margin: 0;
 }
 
 .blockquote__author {
