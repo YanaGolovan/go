@@ -4,43 +4,49 @@
     padding-bottom: 80px;
 }
 
-.booking__form-wrapper {
+.booking__intartaiment-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
     border: none;
     padding: 0;
     margin: 0 0 60px;
+    gap: 100px;
 }
 
-.booking__form-wrapper_wdt_980 {
+/* .booking__form-wrapper_wdt_980 {
     max-width: 980px;
     margin: 0 auto 60px;
-}
+} */
 
-.booking__form-wrapper:last-child {
-    margin-bottom: 0;
-}
-
-.booking__wrapper-intertaiment {
+.booking__date-wrapper {
     display: flex;
-    justify-content: space-between;
-}
-
-.booking__wrapper-date {
-    display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: flex-end;
-    flex-wrap: wrap;
     gap: 50px;
     margin-bottom: 40px;
+    padding: 0;
+    border: none;
 }
 
 .booking__form-wrapper-inner {
     border: none;
     display: flex;
     flex-direction: column;
+    align-items: baseline;
     gap: 20px;
     padding: 0;
+}
+
+.booking__form-wrapper-inner_width_280 {
+    width: 100%;
+    max-width: 280px;
+}
+
+.booking__form-wrapper-inner_width_300 {
+    width: 100%;
+    max-width: 300px;
 }
 
 .booking__title {
@@ -80,19 +86,26 @@
     background-color: #fff;
     text-align: center;
     border-radius: 8px;
-    padding: 7px 0 7px 0;
+    padding: 7px 20px;
     flex-basis: 250px;
+    margin-right: 60px;
 }
 
+.booking__hall-text:last-child {
+    margin-right: 0;
+}
 
 .booking__halls-wrapper {
+    border: none;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 60px;
+    margin-bottom: 60px;
+    padding: 0;
+    align-items: center;
 }
 
 .booking__variants-text {
+    display: flex;
     font-weight: 400;
     font-size: 22px;
     color: #fff;
@@ -124,6 +137,7 @@
     margin-bottom: 14px;
     padding: 12px 20px;
     font-size: 18px;
+    color: #211E1E;
     line-height: 156%;
 }
 
@@ -170,8 +184,10 @@
 }
 
 .booking__button-wrapper {
+    max-width: 980px;
     display: flex;
     justify-content: flex-end;
+    margin: 0 auto;
 }
 
 .booking__button {
