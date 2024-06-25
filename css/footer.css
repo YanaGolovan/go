@@ -88,9 +88,30 @@
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 156px;
 }
 
 .footer__contact-wrapper {
     display: flex;
     flex-direction: column;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copy-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #fff;
+}
+
+.footer__copy-text-author {
+    margin-bottom: 6px;
+}
+
+.footer__text-cite {
+    font-style: normal;
 }

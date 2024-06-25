@@ -6,6 +6,7 @@
     min-height: 823px;
     background-size: 675px;
     flex-direction: column;
+    position: relative;
 }
 
 .banner__title-wrapper {
@@ -94,6 +95,8 @@
 }
 
 .banner__arrow {
-    align-self: center;
+    position: absolute; 
+    bottom: 90px;   
+    right: 45%;
 }
 
