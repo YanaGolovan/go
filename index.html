@@ -100,14 +100,22 @@
                 <form action="https://jsonplaceholder.typicode.com/posts" name="book" method="post">
                     <fieldset class="booking__halls-wrapper">
                         <legend class="booking__subtitle">Выбери зал</legend>
-                        <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="80svibes" id="vibes">
-                        <label class="booking__hall-text" for="vibes">80's vibes</label>
-                        <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="star-wars" id="swars">
-                        <label class="booking__hall-text" for="swars">star wars</label>
-                        <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="wild-west" id="west">
-                        <label class="booking__hall-text" for="west">wild west</label>
-                        <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="neon-style" id="neon">
-                        <label class="booking__hall-text" for="neon">neon style</label>
+                        <div class="booking__input-group">
+                            <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="80svibes" id="vibes" checked>
+                            <label class="booking__hall-text" for="vibes">80's vibes</label>
+                        </div>
+                        <div class="booking__input-group">
+                            <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="star-wars" id="swars">
+                            <label class="booking__hall-text" for="swars">star wars</label>
+                        </div>
+                        <div class="booking__input-group">
+                            <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="wild-west" id="west">
+                            <label class="booking__hall-text" for="west">wild west</label>
+                        </div>
+                        <div class="booking__input-group">
+                            <input class="booking__input-hall visually-hidden" type="radio" name="hall" value="neon-style" id="neon">
+                            <label class="booking__hall-text" for="neon">neon style</label>
+                        </div>
                     </fieldset>
                     <fieldset class="booking__intartaiment-wrapper booking__form-wrapper_wdt_980">
                         <legend class="booking__subtitle">Собери набор развлечений</legend>

@@ -14,10 +14,6 @@
     gap: 100px;
 }
 
-/* .booking__form-wrapper_wdt_980 {
-    max-width: 980px;
-    margin: 0 auto 60px;
-} */
 
 .booking__date-wrapper {
     display: flex;
@@ -85,10 +81,24 @@
     color: #000;
     background-color: #fff;
     text-align: center;
-    border-radius: 8px;
-    padding: 7px 20px;
-    flex-basis: 250px;
+    display: inline-block;
+    width: 250px;
+    padding: 7px 15px;
     margin-right: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* .booking__input-group {
+    margin-right: 60px;
+    border-radius: 8px;
+    padding: 7px 15px;
+    background-color: #fff;
+    font-size: 30px;
+} */
+
+.booking__input-group input[type=radio]:checked + label {
+	background: #cd06ff;
 }
 
 .booking__hall-text:last-child {
@@ -139,6 +149,13 @@
     font-size: 18px;
     color: #211E1E;
     line-height: 156%;
+
+}
+
+.booking__input::-webkit-input-placeholder {
+    line-height: 156%;
+    padding: 0;
+    color: #211E1E;
 }
 
 .booking__input:last-child {
@@ -176,11 +193,45 @@
 }
 
 .booking__input-dt {
+    position: relative;
     max-width: 134px;
     width: 100%;
     padding: 12px 20px;
     border: none;
+    font-size: 18px;
     line-height: 156%;
+}
+
+.booking__input-dt::-webkit-datetime-edit-day-field {
+    padding: 0;
+} 
+
+.booking__input-dt::-webkit-datetime-edit-month-field {
+    padding: 0;
+}
+
+.booking__input-dt::-webkit-datetime-edit-year-field {
+    padding: 0;
+}
+
+.booking__input-dt::-webkit-datetime-edit-hour-field {
+    padding: 0;
+}
+
+.booking__input-dt::-webkit-datetime-edit-minute-field {
+    padding: 0;
+}
+
+.booking__input-dt::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+}
+
+.booking__input-dt::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
 }
 
 .booking__button-wrapper {
@@ -201,5 +252,7 @@
     padding: 16px 50px;
     border: none;
 }
+
+
 
 
