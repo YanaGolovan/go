@@ -21,18 +21,19 @@
 }
 
 .gadgets__item {
-    width: calc(100% / 3 - 80px);
+    width: calc(100% / 3 - 20px);
     max-width: 380px;
-    flex: 1;
     margin: 10px;
+    position: relative;
 }
 
 .gadgets__card {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    height: 228px;
     margin: 0;
+    max-width: 380px;
+    min-height: 228px;
+    justify-content: flex-end;
 }
 
 .gadgets__text {
@@ -40,12 +41,20 @@
     font-size: 20px;
     line-height: 140%;
     color: #fff;
-    white-space: pre-line; 
-    padding: 6px 40px;
+    padding: 0px 40px;
+    z-index: 1;
+    min-height: 62px;
+    white-space: pre-line;
 }
 
 .gadget__img {
     display: block;
-    max-width: 380px;
-    margin-bottom: -70px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
 }
+
+
+
+
