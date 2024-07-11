@@ -149,7 +149,10 @@
     font-size: 18px;
     color: #211E1E;
     line-height: 156%;
+}
 
+.booking__input_type_phone:focus {
+    border: 2px solid #cd06ff;
 }
 
 .booking__input::-webkit-input-placeholder {
@@ -250,9 +253,21 @@
     text-transform: uppercase;
     color: #6c0287;
     padding: 16px 50px;
-    border: none;
+    border: 3px solid transparent;
 }
 
+.booking__button:hover {
+    border: 3px solid #6c0287;
+    background-color: #eadeed;
+}
 
+.booking__button:focus {
+    border: 3px solid #6c0287;
+    background-color: #fff;
+}
+
+.booking__button:active {
+    background-color: #eadeed;
+}
 
 
