@@ -98,8 +98,29 @@
 } */
 
 .booking__input-group input[type=radio]:checked + label {
-	background: #cd06ff;
+    border: 3px solid #fff;
+	background: #6c0287;
+    color: #fff;
 }
+
+.booking__input-group input[type=radio]:hover + label {
+	border: 3px solid #640aa3;
+    background-color: #eadeed;
+    color: #000;
+}
+
+.booking__input-group input[type=radio]:focus + label {
+	border: 3px solid #640aa3;
+    background-color: #fff;
+    color: #000;
+}
+
+.booking__input-group input[type=radio]:active + label {
+    border: 3px solid #fff;
+	background: #6c0287;
+    color: #fff;
+}
+
 
 .booking__hall-text:last-child {
     margin-right: 0;
@@ -151,8 +172,8 @@
     line-height: 156%;
 }
 
-.booking__input_type_phone:focus {
-    border: 2px solid #cd06ff;
+.booking__input:focus {
+    outline: 2px solid #cd06ff;
 }
 
 .booking__input::-webkit-input-placeholder {
@@ -203,6 +224,10 @@
     border: none;
     font-size: 18px;
     line-height: 156%;
+}
+
+.booking__input-dt:focus {
+    outline: 2px solid #cd06ff;
 }
 
 .booking__input-dt::-webkit-datetime-edit-day-field {

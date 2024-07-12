@@ -131,6 +131,17 @@
     stroke: #fff;
 }
 
+.banner__arrow-link:focus::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    border: 1px solid #CD06FF;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
 .banner__arrow:active circle {
     fill: #cd06ff;
     stroke: #cd06ff;
