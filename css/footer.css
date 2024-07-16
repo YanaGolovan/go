@@ -68,14 +68,31 @@
 
 .footer__link-icon {
     display: block;
+    outline: none;
 }
 
 .footer__img-link { 
     display: block;
 }
 
-.icon:last-child {
+.footer__icon:last-child {
     margin-right: 0;
+}
+
+.footer__link-icon:hover path {
+    fill: #EADEED;
+}
+
+.footer__link-icon:focus path {
+    fill: #EADEED;
+}
+
+.footer__link-icon:focus svg {
+    border: 1px solid #CD06FF;
+}
+
+.footer__link-icon:active path {
+    fill: #CD06FF;
 }
 
 .footer__map {

@@ -51,3 +51,18 @@
     background-image: url("../img/open-purple.svg");
 }
 
+.faq__item:nth-child(even):hover:after {
+    background-image: url("../img/open-white-hover.svg");
+}
+
+.faq__item:nth-child(even):active:after {
+    background-image: url("../img/open-white-active.svg");
+}
+
+.faq__item:nth-child(odd):hover:after {
+    background-image: url("../img/open-purple-hover.svg");
+}
+
+.faq__item:nth-child(odd):active:after {
+    background-image: url("../img/open-purple-active.svg");
+}
