@@ -35,7 +35,7 @@
     background-image: url('../image/neon.jpg');
 }
 
-.halls__items {
+.halls__item {
     list-style-type: none;
     padding:  135px 0;
     width: calc(50% - 20px);
@@ -45,6 +45,11 @@
     display: inline-block;
     vertical-align: top;
     margin: 10px;
+}
+
+.halls__item:hover {
+    box-shadow:  0 0 15px rgb( 108, 1, 135, 0.9);
+    transition-duration: 0.5s;
 }
 
 .halls__text {

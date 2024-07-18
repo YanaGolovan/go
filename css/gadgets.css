@@ -31,6 +31,11 @@
     padding: 6px 40px;
 }
 
+.gadgets__item:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}   
+
 .gadgets__card {
     width: 100%;
 }

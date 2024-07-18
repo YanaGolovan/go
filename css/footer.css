@@ -53,6 +53,11 @@
     color: #fff;
 }
 
+.link:hover {
+    color: #CD06FF;
+    transition-duration: 0.5s;
+}
+
 .footer__list {
     list-style: none;
     padding: 0;
