@@ -73,11 +73,13 @@
 .navigation__button:hover {
     background-color: #6c0287;
     border: 3px solid #6c0287;
+    min-width: 285.6px;
 }
 
 .navigation__button:focus {
     background-color: #6c0287;
     border: 3px solid #6c0287;
+    min-width: 285.6px;
 }
 
 .navigation__button:active {

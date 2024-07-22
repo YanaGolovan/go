@@ -87,42 +87,35 @@
     margin-right: 60px;
     border-radius: 8px;
     cursor: pointer;
+    border: 3px solid #440F51;
 }
 
-/* .booking__input-group {
-    margin-right: 60px;
-    border-radius: 8px;
-    padding: 7px 15px;
-    background-color: #fff;
-    font-size: 30px;
-} */
+.booking__input-group input + label {
+    transition-duration: 0.2s;
+}
 
 .booking__input-group input[type=radio]:checked + label {
     border: 3px solid #fff;
 	background: #6c0287;
     color: #fff;
-    transition-duration: 0.5s;
 }
 
 .booking__input-group input[type=radio]:hover + label {
 	border: 3px solid #640aa3;
     background-color: #eadeed;
     color: #000;
-    transition-duration: 0.3s;
 }
 
 .booking__input-group input[type=radio]:focus + label {
 	border: 3px solid #640aa3;
     background-color: #fff;
     color: #000;
-    transition-duration: 0.3s;
 }
 
 .booking__input-group input[type=radio]:active + label {
     border: 3px solid #fff;
-	background: #6c0287;
+	background-color: #6c0287;
     color: #fff;
-    transition-duration: 0.3s;
 }
 
 .booking__hall-text:last-child {
@@ -349,7 +342,7 @@
     color: #6c0287;
     padding: 13px 47px;
     border: 3px solid transparent;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
 }
 
 .booking__button:hover {
