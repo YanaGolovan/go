@@ -46,12 +46,12 @@
 
 .faq__item:nth-child(even):after {
     background-image: url("../img/open-white.svg");
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 }
 
 .faq__item:nth-child(odd):after {
     background-image: url("../img/open-purple.svg");
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 }
 
 .faq__item:nth-child(even):hover:after {

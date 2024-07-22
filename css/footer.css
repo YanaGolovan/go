@@ -51,7 +51,7 @@
 .link {
     text-decoration: none;
     color: #fff;
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
 }
 
 .link:hover {
@@ -86,22 +86,22 @@
 
 .footer__link-icon:hover path {
     fill: #EADEED;
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
 }
 
 .footer__link-icon:focus path {
     fill: #EADEED;
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
 }
 
 .footer__link-icon:focus svg {
     border: 1px solid #CD06FF;
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
 }
 
 .footer__link-icon:active path {
     fill: #CD06FF;
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
 }
 
 .footer__map {

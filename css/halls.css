@@ -45,7 +45,7 @@
     display: inline-block;
     vertical-align: top;
     margin: 10px;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
 }
 
 .halls__item:hover {

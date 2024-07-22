@@ -31,7 +31,7 @@
     position: relative;
     z-index: 1;
     padding: 6px 40px;
-    transition-duration: 1.2s;
+    transition-duration: 0.6s;
 }
 
 .gadget__item_type_bottom {
