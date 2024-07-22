@@ -78,6 +78,7 @@
     border: none;
     position: relative;
     z-index: 0;
+    transition-duration: 0.5s;
 }
 
 .banner__button::before {
@@ -111,24 +112,33 @@
     right: 45%;
 }
 
+.banner__arrow-link {
+    transition-duration: 2s;
+}
+
 .banner__arrow:hover circle {
     fill: #fff;
     stroke: #fff;
+    transition-duration: 2s;
+
 }
 
 .banner__arrow:hover rect {
     fill: #6C0287;
     stroke: #6C0287;
+    transition-duration: 2s;
 }
-
+s
 .banner__arrow:focus circle {
     fill: none;
     stroke: #fff;
+    transition-duration: 2s;
 }
 
 .banner__arrow:focus rect {
     fill: #fff;
     stroke: #fff;
+    transition-duration: 2s;
 }
 
 .banner__arrow-link:focus::before {
@@ -140,14 +150,17 @@
     border: 1px solid #CD06FF;
     background-position: 0 0;
     background-repeat: no-repeat;
+    transition-duration: 2s;
 }
 
 .banner__arrow:active circle {
     fill: #cd06ff;
     stroke: #cd06ff;
+    transition-duration: 2s;
 }
 
 .banner__arrow:active rect {
     fill: #fff;
     stroke: #fff;
+    transition-duration: 2s;
 }

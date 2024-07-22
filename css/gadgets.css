@@ -29,11 +29,11 @@
     position: relative;
     z-index: 1;
     padding: 6px 40px;
+    transition-duration: 1.2s;
 }
 
 .gadgets__item:hover {
     transform: scale(1.1);
-    transition: 1s;
 }   
 
 .gadgets__card {
@@ -47,7 +47,6 @@
     line-height: 140%;
     color: #fff;
     min-height: 56px;
-
 }
 
 .gadget__img {

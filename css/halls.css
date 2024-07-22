@@ -45,11 +45,11 @@
     display: inline-block;
     vertical-align: top;
     margin: 10px;
+    transition-duration: 1s;
 }
 
 .halls__item:hover {
     box-shadow:  0 0 15px rgb( 108, 1, 135, 0.9);
-    transition-duration: 0.5s;
 }
 
 .halls__text {
