@@ -91,13 +91,12 @@
 }
 
 .booking__input-group input + label {
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
 }
 
 .booking__input-group input[type=radio]:checked + label {
-    border: 3px solid #fff;
-	background: #6c0287;
-    color: #fff;
+	background: #fff;
+    color: #000;
 }
 
 .booking__input-group input[type=radio]:hover + label {
