@@ -44,13 +44,13 @@
 .banner__text-black {
     font-weight: 900;
     font-size: 100px;
-    color: var(--light-purple, #CD06FF);
+    color: var(--color-pink);
     margin: 0;
 }
 
 .banner__text-new {
     font-weight: 900;
-    color: var(--light-purple);
+    color: var(--color-pink);
     font-size: 75px;
     font-variant: all-small-caps;
     margin: 0;
@@ -68,7 +68,7 @@
 
 .banner__button {
     border-radius: 10px;
-    background-color: #6C0287;
+    background-color: var(--color-violet);
     font-weight: 700;
     font-size: 26px;
     line-height: 115%;
@@ -85,7 +85,7 @@
 .banner__button::before {
     content: '';
     filter: blur(20px);
-    background: #6c0287;
+    background: var(--color-violet);
     background-size: 100%;
     position: absolute;
     width: 100%;
@@ -96,15 +96,15 @@
 }
 
 .banner__button:hover {
-    background: #840aa3;
+    background: var(--color-light-purple);
 }
 
 .banner__button:focus {
-    background: #840aa3;
+    background: var(--color-light-purple);
 }
 
 .banner__button:active {
-    background: #640aa3;
+    background: var(--color-dark-purple);
 }
 
 .banner__arrow {
@@ -125,8 +125,8 @@
 }
 
 .banner__arrow:hover rect {
-    fill: #6C0287;
-    stroke: #6C0287;
+    fill: var(--color-violet);
+    stroke: var(--color-violet);
     transition-duration: 0.2s;
 }
 s
@@ -148,15 +148,15 @@ s
     position: absolute;
     width: 97px;
     height: 97px;
-    border: 1px solid #CD06FF;
+    border: 1px solid var(--color-pink);
     background-position: 0 0;
     background-repeat: no-repeat;
     transition-duration: 0.2s;
 }
 
 .banner__arrow:active circle {
-    fill: #cd06ff;
-    stroke: #cd06ff;
+    fill: var(--color-pink);
+    stroke: var(--color-pink);
     transition-duration: 0.2s;
 }
 
