@@ -57,7 +57,7 @@
 }
 
 .navigation__button {
-    min-width: 280px;
+    min-width: 286px;
     color: #fff;
     font-size: 22px;
     font-weight: 700;
@@ -68,22 +68,25 @@
     padding: 12px 32px;
     text-align: center;  
     transition-duration: 0.3s;
+    
 }
 
 .navigation__button:hover {
     background-color: #6c0287;
     border: 3px solid #6c0287;
-    min-width: 285.6px;
+    min-width: 286px;
 }
 
 .navigation__button:focus {
     background-color: #6c0287;
     border: 3px solid #6c0287;
-    min-width: 285.6px;
+    min-width: 286px;
+
 }
 
 .navigation__button:active {
     background-color: #640aa3;
     border: 1px solid #000;
-    min-width: 285.6px;
+    min-width: 286px;
+    
 }
