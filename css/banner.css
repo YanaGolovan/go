@@ -65,7 +65,6 @@
     white-space: pre-line;
 }
 
-
 .banner__button {
     border-radius: 10px;
     background-color: var(--color-violet);
@@ -129,7 +128,7 @@
     stroke: var(--color-violet);
     transition-duration: 0.2s;
 }
-s
+
 .banner__arrow:focus circle {
     fill: none;
     stroke: #fff;
@@ -164,4 +163,66 @@ s
     fill: #fff;
     stroke: #fff;
     transition-duration: 0.2s;
+}
+
+@media (max-width: 1024px) {
+
+    .banner__title {
+        font-size: 120px;
+        margin-bottom: 20px;
+    }
+
+    .banner__subtitle {
+        font-size: 22px;
+        line-height: 136%;
+        padding-left: 100px;
+    }
+
+    .banner__title-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .banner__text-black {
+        font-size: 80px;
+        margin-bottom: 15px;
+    }
+    
+    .banner__text-new {
+        font-size: 60px;
+        margin-bottom: 13px;
+    }
+    
+    .banner__text {
+        font-size: 26px;
+    }
+
+    .banner__desc {
+        margin-bottom: 75px;
+    }
+
+    .banner__button {
+        padding: 17px 48px;
+        font-size: 22px;
+        line-height: 136%;
+        max-width: 298px;
+        margin-left: 39px;
+    }
+
+    .banner__button::before {
+        top: 5px;
+        left: 10px;
+        z-index: -1;
+    }
+
+    .banner__bg {
+        min-height: 583px;
+        background-size: 520px;
+    }
+
+    .banner__arrow {
+        width: 67px;
+        height: 67px;
+        bottom: 45px;
+        right: 46.5%;
+    }
 }

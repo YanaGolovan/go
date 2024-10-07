@@ -66,6 +66,29 @@
     z-index: -1;
 }
 
+@media (max-width: 1024px) {
+    .gadgets {
+        padding-top: 33px;
+        padding-bottom: 87px;
+    }
 
+    .gadgets__title {
+        font-size: 30px;
+        margin: 0 0 36px;
+        line-height: 133%;
+    }
 
+    .gadgets__list {
+        row-gap: 30px;
+        column-gap: 20px;
+    }
 
+    .gadget__item_type_bottom {
+        top: 53px;
+    }
+
+    .gadgets__item {
+        min-height: 172px;
+        padding: 6px 20px;
+    }
+}

@@ -63,3 +63,25 @@
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+    .halls {
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+
+    .halls__title {
+        font-size: 30px;
+        margin-bottom: 37px;
+    }
+
+    .halls__item {
+        padding: 73px 0;
+    }
+
+    .halls__text {
+        font-size: 50px;
+        max-width: 252px;
+        line-height: 120%;
+    }
+}

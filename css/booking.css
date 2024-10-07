@@ -358,4 +358,54 @@
     background-color: var(--color-grey);
 }
 
+@media (max-width: 1024px) {
+    .booking {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
+    .booking__title {
+        font-size: 30px;
+        line-height: 133%;
+        margin: 0 0 45px;
+    }
+
+    .booking__hall-text {
+        font-size: 20px;
+        width: 180px;
+        padding: 7px 15px;
+        line-height: 120%;
+    }
+
+    .booking__subtitle {
+        margin-bottom: 25px;
+    }
+
+    .booking__intartaiment-wrapper {
+        justify-content: flex-start;
+        gap: 112px;
+    }
+
+    .booking__form-wrapper-date {
+        min-width: 300px;
+    }
+
+    .booking__input {
+        padding: 12px 15px;
+    }
+
+    .booking__button {
+        font-size: 18px;
+        line-height: 133%;
+        padding: 9px 43px;
+    }
+
+    .booking__date-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .booking__input-square::before {
+        width: 25px;
+        height: 25px;
+    }
+}
