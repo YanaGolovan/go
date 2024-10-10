@@ -394,6 +394,11 @@
         padding: 12px 15px;
     }
 
+    .booking__input_width_300 {
+        padding: 12px 20px;
+    }
+
+
     .booking__button {
         font-size: 18px;
         line-height: 133%;
@@ -408,4 +413,13 @@
         width: 25px;
         height: 25px;
     }
+
+    .booking__form-wrapper-name {
+        flex-basis: 251px;
+    }
+
+    .booking__form-wrapper-contact {
+        flex-basis: 254px;
+    }
+
 }

@@ -121,3 +121,70 @@
     font-style: normal;
     text-transform: none;
 }
+
+@media (max-width: 1024px) {
+    .about-us {
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+
+    .about-us__title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .about-us__text {
+        font-size: 18px;
+        line-height: 133%;
+        margin: 0 0 23px;
+    }
+
+    .about-us__content {
+        margin-bottom: 40px;
+    }
+
+    .blockquote__quote {
+        font-size: 30px;
+        white-space: normal;
+        max-width: 400px;
+        padding-left: 25px;
+        line-height: 120%;
+        margin: 0 0 19px;
+    }
+
+    .about-us__image-wrapper {
+        width: calc(100% - 484px);
+        max-width: 420px;
+    }
+
+    .about-us__text-wrapper {
+        max-width: 444px;
+    }
+
+    .blockquote__quote::before {
+        font-size: 30px;
+    }
+
+    .blockquote__quote::after {
+        font-size: 30px;
+    }
+
+    .blockquote__image-boss {
+        width: 70px;
+        height: 70px;
+        margin-right: 35px;
+    }
+
+    .blockquote__text {
+        font-size: 18px;
+    }
+
+    .blockquote__block-boss {
+        padding-right: 0px;
+        align-items: flex-end;
+    }
+
+    .blockquote__text-boss {
+        max-width: 225px;
+    }
+}
