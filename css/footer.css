@@ -141,3 +141,48 @@
 .footer__text-cite {
     font-style: normal;
 }
+
+@media (max-width: 1024px) {
+    .footer {
+        padding-top: 29px;
+        padding-bottom: 19px;
+        background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+    }
+
+    .footer__title {
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+
+    .footer__contacts {
+        background-size: 26px;
+        padding-left: 40px;
+        margin-bottom: 11px;
+    }
+
+    .footer__contacts_icon_address {
+        margin-bottom: 40px;
+    }
+
+    .footer__contacts_icon_phone {
+        white-space: pre-line;
+    }
+
+    .footer__map {
+        max-width: 542px;
+        min-height: 274px;
+    }
+
+    .footer__wrapper {
+        margin-bottom: 92px;
+    }
+
+    .footer__contacts:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__link-svg {
+        width: 40px;
+        height: 40px;
+    }
+}
