@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.header__burger {
+    display: none;
+}
+
 .navigation__list {
     display: flex;
     list-style-type: none;
@@ -82,7 +86,7 @@
     min-width: 286px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
     .header__logo {
         width: 87px;
         height: 55px;
@@ -102,4 +106,12 @@
         line-height: 133%;
         border-radius: 8px;
     }
+}
+
+@media (max-width: 768px) {
+    .navigation__list {
+        display: none;
+    }
+
+
 }
