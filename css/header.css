@@ -86,7 +86,7 @@
     min-width: 286px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
     .header__logo {
         width: 87px;
         height: 55px;
@@ -109,9 +109,5 @@
 }
 
 @media (max-width: 768px) {
-    .navigation__list {
-        display: none;
-    }
-
 
 }
