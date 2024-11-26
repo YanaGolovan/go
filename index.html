@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Go</title>
     <link rel="icon" type="image/svg+xml" href="img/icon.svg">
     <link rel="icon" type="image/png" href="img/logo.png">
@@ -25,7 +26,7 @@
                 <path d="M120 32H119V0H120V32Z" fill="#CD06FF"/>
                 <path d="M120 0V1H69V0H120Z" fill="#CD06FF"/>
                 </svg>
-            <nav class="navigation">
+            <nav class="navigation visually-hidden">
                 <ul class="navigation__list">
                     <li class="navigation__item"><a class="navigation__link" href="#halls">Залы</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#about">О нас</a></li>
@@ -133,7 +134,7 @@
                             <fieldset class="booking__form-wrapper-inner booking__form-wrapper-inner_width_280">
                                 <legend class="booking__subtitle-inner">Приставка</legend>
                                 <label class="booking__variants-text checkbox-input-circle">
-                                    <input class="booking__input-circle" type="radio" name="console" value="playstation">PlayStation5
+                                    <input class="booking__input-circle" type="radio" name="console" value="playstation">PlayStation 5
                                 </label>
                                 <label class="booking__variants-text checkbox-input-circle">
                                     <input class="booking__input-circle" type="radio" name="console" value="segaMegaDrive">Sega Mega Drive
@@ -175,7 +176,7 @@
                                 <div class="booking__form-wrapper-date">
                                     <div class="booking__date-time">
                                         <input class="booking__input-dt" type="date" name="date" id="date" required>
-                                        <input class="booking__input-dt" type="time" name="time" id="time" required>
+                                        <input class="booking__input-dt" type="time" name="time" id="time" aria-placeholder="Время">
                                     </div>
                                     <input class="booking__input booking__input_width_300" type="text" name="count" id="count" placeholder="Сколько человек" required>
                                 </div>

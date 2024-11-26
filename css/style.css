@@ -62,7 +62,8 @@ body {
         padding-top: 32px;
     }
 
-    .container {
+    .content:first-child {
+        padding-top: 13px;
     }
 }
 

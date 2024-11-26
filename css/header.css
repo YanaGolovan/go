@@ -110,4 +110,17 @@
 
 @media (max-width: 768px) {
 
+    .visually-hidden {
+        position: fixed;
+        transform: scale(0);
+    }
+
+    .header {
+        padding-top: 35px;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
 }

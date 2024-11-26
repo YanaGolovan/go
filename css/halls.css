@@ -85,3 +85,25 @@
         line-height: 120%;
     }
 }
+
+@media (max-width: 768px) {
+    .halls {
+        padding-top: 30px;
+        padding-bottom: 62px;
+    }
+
+    .halls__title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .halls__text {
+        font-size: 40px;
+        max-width: 121px;
+        line-height: 125%;
+    }
+
+    .halls__item {
+        padding: 60px 0 40px 0;
+    }
+}

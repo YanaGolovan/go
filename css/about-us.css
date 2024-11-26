@@ -188,3 +188,32 @@
         max-width: 225px;
     }
 }
+
+@media (max-width: 1024px) {
+    .about-us__title {
+        font-size: 24px;
+        line-height: 150%;
+        margin-bottom: 30px;
+    }
+
+    .about-us__text-wrapper {
+        max-width: 278px;
+        padding-top: 66px;
+    }
+
+    .about-us__text {
+        font-size: 16px;
+        white-space: normal;
+    }
+
+    .about-us__image-wrapper {
+        width: calc(100% - 278px);
+        max-width: 382px;
+        margin-right: 28px;
+    }
+
+    .about-us__content {
+        margin-bottom: 97px;
+    }
+}
+

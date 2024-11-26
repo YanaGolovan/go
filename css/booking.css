@@ -5,21 +5,21 @@
 }
 
 .booking__intartaiment-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     border: none;
     padding: 0;
     margin: 0 0 60px;
-    gap: 100px;
 }
 
 
 .booking__date-wrapper {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: minmax(300px, 300px) minmax(280px, 280px) minmax(300px, 300px);
+    grid-template-areas: "date name contact";
     justify-content: center;
-    align-items: flex-end;
+    align-items: end;
     gap: 50px;
     margin-bottom: 40px;
     padding: 0;
@@ -251,26 +251,26 @@
 .booking__form-wrapper-date {
     border: none;
     display: flex;
-    flex-basis: 300px;
     flex-direction: column;
     gap: 36px;
     padding: 0;
+    grid-area: date;
 }
 
 .booking__form-wrapper-name{
     border: none;
     display: flex;
-    flex-basis: 280px;
     flex-direction: column;
     padding: 0;
+    grid-area: name;
 }
 
 .booking__form-wrapper-contact{
     border: none;
     display: flex;
-    flex-basis: 300px;
     flex-direction: column;
     padding: 0;
+    grid-area: contact;
 }
 
 .booking__date-time {
@@ -398,7 +398,6 @@
         padding: 12px 20px;
     }
 
-
     .booking__button {
         font-size: 18px;
         line-height: 133%;
@@ -422,4 +421,104 @@
         flex-basis: 254px;
     }
 
+    .booking__halls-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .booking__input-group {
+
+    }
 }
+
+@media (max-width: 768px) {
+    .booking {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .booking__title {
+        font-size: 24px;
+        line-height: 133%;
+        margin: 0 0 40px;
+    }
+
+    .booking__hall-text {
+        font-size: 16px;
+        width: 150px;
+        padding: 9px 20px;
+        line-height: 120%;
+    }
+
+    .booking__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .booking__halls-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .booking__input-circle {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .booking__input-square {
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        position: static;
+    }
+
+    .booking__input-square::before {
+        width: 40px;
+        height: 40px;
+    }
+
+    .booking__intartaiment-wrapper {
+        flex-wrap: wrap;
+        column-gap: 138px;
+        row-gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    .checkbox-input {
+        padding-left: 40px;
+    }
+
+    .booking__form-wrapper-date {
+        min-width: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-basis: auto;
+        gap: 106px;
+
+    }
+
+    .booking__date-wrapper {
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 42px;
+    }
+
+    .booking__form-wrapper-name {
+        flex-basis: 280px;
+    }
+
+    .booking__form-wrapper-contact {
+        flex-basis: 300px;
+    }
+
+    .booking__date-time {
+        flex-basis: 280px;
+        gap: 14px;
+    }
+
+    .booking__input-dt {
+        min-width: 134px;
+    }
+}
+
